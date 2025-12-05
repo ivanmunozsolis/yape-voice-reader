@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    background: linear-gradient(135deg, #4a00e0, #0077ff);
+    font-family: Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+.card {
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 420px;
+    margin: 70px auto;
+    box-shadow: 0 0 30px rgba(0,0,0,0.3);
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.sub {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+.price {
+    margin: 15px 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.pay-btn, .download-btn {
+    display: inline-block;
+    background: #00d4ff;
+    padding: 15px 25px;
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.pay-btn:hover, .download-btn:hover {
+    background: #4df3ff;
+}
+
+.info, .note {
+    font-size: 14px;
+    margin-top: 15px;
+    opacity: 0.8;
+}
