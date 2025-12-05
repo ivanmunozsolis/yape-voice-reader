@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Descargar Yape Voice Reader</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card">
+    <h1>Descarga autorizada</h1>
+    <p class="sub">Gracias por tu compra.</p>
+
+    <a class="download-btn" href="yapevoicereader.apk" download>
+        Descargar YapeVoiceReader.apk
+    </a>
+
+    <p class="note">Este enlace es personal y no debe compartirse.</p>
+</div>
+
+<script>
+// Protección para evitar compartir el link sin pagar
+if (document.referrer === "") {
+    window.location.href = "index.html";
+}
+</script>
+
+</body>
+</html>
